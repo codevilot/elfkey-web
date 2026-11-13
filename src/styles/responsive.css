@@ -1,0 +1,422 @@
+@media (min-width: 1500px) {
+  main {
+    padding-top: 50px;
+  }
+  .workspace-grid {
+    grid-template-columns: minmax(0, 1fr) 340px;
+  }
+  .device-stage {
+    min-height: 335px;
+  }
+  .panel-heading h2 {
+    font-size: 19px;
+  }
+  .slot-card {
+    min-height: 140px;
+  }
+  .canvas-panel {
+    padding: 30px;
+  }
+  .assignment-panel {
+    padding: 28px;
+  }
+  .sidebar {
+    width: 230px;
+  }
+  .app-main {
+    margin-left: 230px;
+    width: calc(100% - 230px);
+  }
+}
+@media (max-width: 1150px) {
+  .sidebar {
+    width: 180px;
+    padding: 28px 13px;
+  }
+  .app-main {
+    margin-left: 180px;
+    width: calc(100% - 180px);
+  }
+  main {
+    padding: 30px 24px 0;
+  }
+  .topbar {
+    padding: 0 25px;
+  }
+  .workspace-grid {
+    grid-template-columns: minmax(0, 1fr) 275px;
+    gap: 14px;
+  }
+  .canvas-panel {
+    padding: 22px 17px;
+  }
+  .assignment-panel {
+    padding: 22px 18px;
+  }
+  .panel-heading h2 {
+    font-size: 15px;
+  }
+  .soft-tag {
+    display: none;
+  }
+  .device-card {
+    padding: 20px;
+  }
+  .device-card__actions {
+    gap: 5px;
+    flex-direction: column;
+  }
+  .device-card__identity h2 {
+    font-size: 16px;
+  }
+  .device-stage {
+    min-height: 250px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+  .slot-card {
+    padding: 12px 9px;
+  }
+  .slot-card__top {
+    font-size: 8px;
+  }
+  .slot-card strong {
+    font-size: 18px;
+  }
+  .workflow {
+    gap: 15px;
+  }
+  .draft-tools > span {
+    max-width: 50%;
+    line-height: 1.7;
+  }
+  .sidebar-help {
+    padding: 15px 12px;
+  }
+  .sidebar-foot {
+    font-size: 8px;
+  }
+  .brand {
+    padding-left: 5px;
+    font-size: 23px;
+  }
+  .heading-art {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  .sidebar {
+    width: 78px;
+    align-items: center;
+    padding: 25px 10px;
+  }
+  .brand {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .brand > span:last-child,
+  .nav-label,
+  .sidebar-help,
+  .sidebar-foot,
+  .nav-item > span {
+    display: none;
+  }
+  .nav-item {
+    font-size: 0;
+    padding: 14px;
+  }
+  .nav-item svg {
+    width: 21px;
+    height: 21px;
+  }
+  .app-main {
+    margin-left: 78px;
+    width: calc(100% - 78px);
+  }
+  main {
+    padding: 28px 22px 0;
+  }
+  .topbar {
+    height: 60px;
+    padding: 0 22px;
+  }
+  .workspace-grid {
+    grid-template-columns: minmax(0, 1fr) 260px;
+  }
+  .device-stage {
+    min-height: 220px;
+  }
+  .slot-card strong {
+    font-size: 16px;
+  }
+  .slot-card__label {
+    font-size: 7px;
+  }
+  .slot-card__selection {
+    font-size: 7px;
+  }
+  .canvas-note {
+    font-size: 8px;
+  }
+}
+@media (max-width: 720px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    height: 65px;
+    flex-direction: row;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+    padding: 0 20px;
+    gap: 10px;
+  }
+  .brand {
+    margin: 0 auto 0 0;
+    gap: 8px;
+  }
+  .brand > span:last-child {
+    display: block;
+    font-size: 20px;
+  }
+  .brand-mark {
+    width: 31px;
+    height: 31px;
+    font-size: 25px;
+    border-radius: 9px;
+  }
+  .brand-sub {
+    font-size: 6px;
+    letter-spacing: 2px;
+  }
+  .nav-item {
+    margin: 0;
+    padding: 9px;
+  }
+  .app-shell {
+    display: block;
+  }
+  .app-main {
+    margin: 0;
+    width: 100%;
+  }
+  .topbar {
+    display: none;
+  }
+  main {
+    padding: 25px 18px 0;
+  }
+  .page-heading {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 25px;
+    letter-spacing: -1.1px;
+  }
+  .heading-kicker {
+    font-size: 8px;
+  }
+  .page-heading p {
+    font-size: 10px;
+  }
+  .workflow {
+    gap: 10px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .workflow li {
+    gap: 5px;
+    font-size: 8px;
+  }
+  .workflow li > svg {
+    display: none;
+  }
+  .workflow li > span {
+    width: 19px;
+    height: 19px;
+    font-size: 8px;
+  }
+  .device-card {
+    gap: 11px;
+    padding: 17px 14px;
+    border-radius: 12px;
+  }
+  .device-card__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 11px;
+  }
+  .device-card__identity h2 {
+    font-size: 14px;
+  }
+  .device-card p {
+    font-size: 8px;
+    max-width: 200px;
+  }
+  .device-card__identity .eyebrow {
+    font-size: 8px;
+  }
+  .device-card__actions .button {
+    font-size: 9px;
+    gap: 4px;
+    padding: 8px;
+  }
+  .device-card__actions .button svg {
+    width: 13px;
+  }
+  .device-card__actions .status-pill {
+    font-size: 8px;
+  }
+  .message {
+    margin-top: 13px;
+    margin-bottom: 17px;
+    font-size: 10px;
+    padding: 11px 13px;
+  }
+  .workspace-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .canvas-panel {
+    padding: 21px 18px;
+  }
+  .panel-heading h2 {
+    font-size: 17px;
+  }
+  .soft-tag {
+    display: block;
+    font-size: 8px;
+  }
+  .device-stage {
+    margin: 9px -12px 13px;
+    min-height: 240px;
+  }
+  .device-art {
+    max-width: 490px;
+  }
+  .slot-card {
+    padding: 12px 10px;
+    min-height: 115px;
+  }
+  .slot-card__top {
+    font-size: 9px;
+  }
+  .slot-card strong {
+    font-size: 19px;
+  }
+  .slot-card__label {
+    font-size: 8px;
+  }
+  .slot-card__selection {
+    font-size: 8px;
+  }
+  .canvas-note {
+    font-size: 9px;
+    margin-top: 17px;
+  }
+  .assignment-panel {
+    padding: 23px 21px;
+  }
+  .current-value {
+    margin-top: 6px;
+  }
+  .field-label {
+    font-size: 11px;
+  }
+  .modifier-buttons button {
+    font-size: 11px;
+    padding: 11px 0;
+  }
+  .binding-preview kbd {
+    font-size: 22px;
+  }
+  .button {
+    font-size: 12px;
+  }
+  .save-step strong {
+    font-size: 12px;
+  }
+  .save-step p {
+    font-size: 10px;
+  }
+  .save-area {
+    padding-top: 23px;
+  }
+  .fine-print {
+    font-size: 9px;
+  }
+  .assignment-panel #capture {
+    font-size: 11px;
+  }
+  .save-button {
+    font-size: 12px;
+    min-height: 46px;
+  }
+  .draft-tools {
+    align-items: flex-start;
+    margin: 12px 0 20px;
+  }
+  .draft-tools > span {
+    font-size: 8px;
+    max-width: 45%;
+    align-items: flex-start;
+  }
+  .draft-tools > span svg {
+    flex-shrink: 0;
+  }
+  .draft-tools > div {
+    gap: 0;
+  }
+  .draft-tools .button {
+    font-size: 8px;
+    padding: 5px;
+    gap: 4px;
+  }
+  .tester-panel {
+    padding: 21px 18px;
+  }
+  .tester-title {
+    gap: 10px;
+  }
+  .tester-panel h2 {
+    font-size: 14px;
+  }
+  .tester-panel p:not(.fine-print) {
+    font-size: 9px;
+  }
+  .test-icon {
+    width: 33px;
+    height: 33px;
+  }
+  .tester-content textarea::placeholder {
+    font-size: 10px;
+  }
+  .diagnostics > summary {
+    padding: 15px;
+  }
+  .diagnostics > summary > span:last-child {
+    font-size: 0;
+  }
+  .diagnostics > summary > span:last-child svg {
+    width: 13px;
+  }
+  .diagnostics > summary > span {
+    font-size: 10px;
+  }
+  .diagnostics-body {
+    padding: 16px;
+  }
+  .diagnostics dl {
+    gap: 20px;
+  }
+  .diagnostics-body > .button {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  footer {
+    font-size: 7px;
+    align-items: flex-start;
+  }
+  footer > span {
+    max-width: 50%;
+  }
+}

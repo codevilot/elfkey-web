@@ -1,0 +1,76 @@
+.device-card {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  border: 1px solid #dde7f7;
+  background: linear-gradient(100deg, #fff, #f4f8ff);
+  border-radius: 15px;
+  padding: 23px 25px;
+  box-shadow: 0 4px 10px #23385b02;
+}
+.device-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  background: #eaf2ff;
+  color: var(--blue);
+  border: 1px solid #dce8fc;
+  flex-shrink: 0;
+}
+.eyebrow {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  color: #8e9eb4;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 17px;
+  letter-spacing: -0.6px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+.device-card h2 {
+  font-size: 18px;
+  letter-spacing: -0.4px;
+}
+.device-card .eyebrow {
+  font-size: 9px;
+  margin-bottom: 5px;
+  color: #7e98bf;
+}
+.device-card p {
+  font-size: 10px;
+  color: #8c9bb0;
+  margin: 7px 0 0;
+  line-height: 1.8;
+}
+.device-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+.status-pill {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #3e9d81;
+  border: 1px solid #dcefe7;
+  background: #f0faf5;
+  padding: 5px 8px;
+  border-radius: 20px;
+  font-size: 9px;
+}
+.status-pill i {
+  width: 5px;
+  height: 5px;
+  background: #52ad8e;
+  border-radius: 50%;
+}

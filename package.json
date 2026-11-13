@@ -1,0 +1,39 @@
+{
+  "name": "elfkey-web",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "test": "tsx --test tests/*.test.ts",
+    "build": "npm run check && vite build",
+    "check": "tsc --noEmit && tsc -p tsconfig.tests.json && tsc -p tsconfig.node.json",
+    "preview": "vite preview --host 127.0.0.1 --port 5173 --strictPort"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/w3c-web-hid": "^1.0.7",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "description": "An independent, browser-based PCsensor keyboard and foot switch configurator built with React, TypeScript and WebHID.",
+  "homepage": "https://codevilot.github.io/elfkey-web/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codevilot/elfkey-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codevilot/elfkey-web/issues"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
